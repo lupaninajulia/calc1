@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1478958223 source:d:\projects\pr1\src\jlnumber.cpp
+	"JLNumber.h"
+	<iostream>
+	<cmath>
+
+1478958932 d:\projects\pr1\include\jlnumber.h
+
+1478629197 source:d:\projects\pr1\main.cpp
+	<iostream>
+	"JLNumber.h"
+	"JLArithmetics.h"
+	<string>
+
+1478629266 d:\projects\pr1\include\jlarithmetics.h
+	"JLOperation.h"
+
+1478629244 d:\projects\pr1\include\jloperation.h
+	"JLNumber.h"
+	<string>
+
+1478957978 source:d:\projects\pr1\src\jlarithmetics.cpp
+	"JLArithmetics.h"
+	<cassert>
+
+1478627800 source:d:\projects\pr1\src\jloperation.cpp
+	"JLOperation.h"
+
