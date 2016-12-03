@@ -14,7 +14,11 @@
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
+					<Add directory="D:/projects/unittest-cpp/UnitTest++" />
 				</Compiler>
+				<Linker>
+					<Add library="D:/projects/unittest-cpp/Deliv/Debug/libUnitTest++.a" />
+				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
@@ -26,6 +30,7 @@
 		<Unit filename="include/JLOperation.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/JLArithmetics.cpp" />
+		<Unit filename="src/JLMainTest.cpp" />
 		<Unit filename="src/JLNumber.cpp" />
 		<Unit filename="src/JLOperation.cpp" />
 		<Extensions>
