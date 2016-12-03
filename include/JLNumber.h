@@ -18,7 +18,9 @@ class JLNumber
         void sqrAndSet();
         void inverseAndSet();
 
-        void print();
+        void print() const;
+
+        double output() const;
 
     protected:
 

@@ -1,12 +1,13 @@
 # depslib dependency file v1.0
-1478958223 source:d:\projects\pr1\src\jlnumber.cpp
+1480432917 source:d:\projects\pr1\src\jlnumber.cpp
 	"JLNumber.h"
 	<iostream>
 	<cmath>
 
-1478958932 d:\projects\pr1\include\jlnumber.h
+1480432922 d:\projects\pr1\include\jlnumber.h
 
-1478629197 source:d:\projects\pr1\main.cpp
+1480433014 source:d:\projects\pr1\main.cpp
+	"UnitTest++.h"
 	<iostream>
 	"JLNumber.h"
 	"JLArithmetics.h"
@@ -25,4 +26,149 @@
 
 1478627800 source:d:\projects\pr1\src\jloperation.cpp
 	"JLOperation.h"
+
+1480432987 source:d:\projects\pr1\src\jlmaintest.cpp
+	"UnitTest++.h"
+	"JLNumber.h"
+	"JLArithmetics.h"
+
+1480431589 d:\projects\pr1\include\jlmaintest.h
+
+1479232033 d:\projects\unittest-cpp\unittest++\unittest++.h
+	"UnitTestPP.h"
+
+1479232033 d:\projects\unittest-cpp\unittest++\unittestpp.h
+	"Config.h"
+	"TestMacros.h"
+	"CheckMacros.h"
+	"RequireMacros.h"
+	"TestRunner.h"
+	"TimeConstraint.h"
+	"ReportAssert.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\config.h
+
+1479232032 d:\projects\unittest-cpp\unittest++\testmacros.h
+	"Config.h"
+	"TestSuite.h"
+	"ExceptionMacros.h"
+	"ExecuteTest.h"
+	"AssertException.h"
+	"TestDetails.h"
+	"MemoryOutStream.h"
+	"Posix/SignalTranslator.h"
+
+1479232033 d:\projects\unittest-cpp\unittest++\testsuite.h
+
+1479232032 d:\projects\unittest-cpp\unittest++\exceptionmacros.h
+	"Config.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\executetest.h
+	"Config.h"
+	"ExceptionMacros.h"
+	"TestDetails.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+	"AssertException.h"
+	"RequiredCheckException.h"
+	"CurrentTest.h"
+	"ReportAssertImpl.h"
+	"Posix/SignalTranslator.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\testdetails.h
+	"HelperMacros.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\helpermacros.h
+	"Config.h"
+
+1479232033 d:\projects\unittest-cpp\unittest++\testresults.h
+	"HelperMacros.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\memoryoutstream.h
+	"Config.h"
+	"HelperMacros.h"
+	<sstream>
+	<cstddef>
+
+1479232032 d:\projects\unittest-cpp\unittest++\assertexception.h
+	"Config.h"
+	"HelperMacros.h"
+	<exception>
+
+1479232032 d:\projects\unittest-cpp\unittest++\requiredcheckexception.h
+	"Config.h"
+	"HelperMacros.h"
+	<exception>
+
+1479232032 d:\projects\unittest-cpp\unittest++\currenttest.h
+	"HelperMacros.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\reportassertimpl.h
+	"Config.h"
+	"HelperMacros.h"
+	<csetjmp>
+
+1479232032 d:\projects\unittest-cpp\unittest++\posix\signaltranslator.h
+	<setjmp.h>
+	<signal.h>
+
+1479232032 d:\projects\unittest-cpp\unittest++\checkmacros.h
+	"HelperMacros.h"
+	"ExceptionMacros.h"
+	"Checks.h"
+	"AssertException.h"
+	"RequiredCheckException.h"
+	"MemoryOutStream.h"
+	"TestDetails.h"
+	"CurrentTest.h"
+	"ReportAssertImpl.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\checks.h
+	"Config.h"
+	"TestResults.h"
+	"MemoryOutStream.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\requiremacros.h
+	"RequiredCheckTestReporter.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\requiredchecktestreporter.h
+	"HelperMacros.h"
+	"ThrowingTestReporter.h"
+
+1479232033 d:\projects\unittest-cpp\unittest++\throwingtestreporter.h
+	"TestReporter.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\testreporter.h
+	"HelperMacros.h"
+
+1479232033 d:\projects\unittest-cpp\unittest++\testrunner.h
+	"Test.h"
+	"TestList.h"
+	"CurrentTest.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\test.h
+	"TestDetails.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\testlist.h
+	"HelperMacros.h"
+
+1479232033 d:\projects\unittest-cpp\unittest++\timeconstraint.h
+	"TimeHelpers.h"
+	"HelperMacros.h"
+	"TestDetails.h"
+
+1479232033 d:\projects\unittest-cpp\unittest++\timehelpers.h
+	"Config.h"
+	"Posix/TimeHelpers.h"
+	"Win32/TimeHelpers.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\posix\timehelpers.h
+	<sys/time.h>
+
+1479232033 d:\projects\unittest-cpp\unittest++\win32\timehelpers.h
+	"../Config.h"
+	"../HelperMacros.h"
+
+1479232032 d:\projects\unittest-cpp\unittest++\reportassert.h
+	"HelperMacros.h"
 

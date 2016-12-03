@@ -58,7 +58,12 @@ void JLNumber::inverseAndSet()
     m_nContent = 1/m_nContent;
 }
 
-void JLNumber::print()
+void JLNumber::print() const
 {
     std::cout << m_nContent << std::endl;
+}
+
+double JLNumber::output() const
+{
+    return m_nContent;
 }
