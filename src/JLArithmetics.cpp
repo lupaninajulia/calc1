@@ -33,19 +33,27 @@ int JLArithmetics::getArgumentsNumber() const
     return nResult;
 }
 
-void JLArithmetics::act(JLNumber& num1)
+JLNumber JLArithmetics::act(JLNumber& num1)
 {
+    JLNumber num3;
+
     if(m_strContent == "sqrt")
     {
-        num1.sqrtAndSet();
+        num3 = num1;
+        num3.sqrtAndSet();
+        return num3;
     }
     else if(m_strContent == "sqr")
     {
-        num1.sqrAndSet();
+        num3 = num1;
+        num3.sqrAndSet();
+        return num3;
     }
     else if(m_strContent == "inv")
     {
-        num1.inverseAndSet();
+        num3 = num1;
+        num3.inverseAndSet();
+        return num3;
     }
     else
     {
@@ -53,27 +61,39 @@ void JLArithmetics::act(JLNumber& num1)
     }
 }
 
-void JLArithmetics::act(JLNumber& num1, JLNumber& num2)
+JLNumber JLArithmetics::act(JLNumber& num1, JLNumber& num2)
 {
+    JLNumber num3;
+
     if(m_strContent == "+")
     {
-        num1 += num2;
+        num3 = num1;
+        num3 += num2;
+        return num3;
     }
     else if(m_strContent == "-")
     {
-        num1 -= num2;
+        num3 = num1;
+        num3 -= num2;
+        return num3;
     }
     else if(m_strContent == "*")
     {
-        num1 *= num2;
+        num3 = num1;
+        num3 *= num2;
+        return num3;
     }
     else if(m_strContent == "/")
     {
-        num1 /= num2;
+        num3 = num1;
+        num3 /= num2;
+        return num3;
     }
     else if(m_strContent == "%")
     {
-        num1 %= num2;
+        num3 = num1;
+        num3 %= num2;
+        return num3;
     }
     else
     {

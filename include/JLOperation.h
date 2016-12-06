@@ -10,8 +10,8 @@ class JLOperation
         JLOperation();
         virtual ~JLOperation();
 
-        virtual void act(JLNumber& num1, JLNumber& num2) = 0;
-        virtual void act(JLNumber& num1) = 0;
+        virtual JLNumber act(JLNumber& num1, JLNumber& num2) = 0;
+        virtual JLNumber act(JLNumber& num1) = 0;
 
         //virtual JLOperation& operator=(char arg);
         void set(char arg);

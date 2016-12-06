@@ -13,14 +13,14 @@
 	"JLArithmetics.h"
 	<string>
 
-1478629266 d:\projects\pr1\include\jlarithmetics.h
+1481047137 d:\projects\pr1\include\jlarithmetics.h
 	"JLOperation.h"
 
-1478629244 d:\projects\pr1\include\jloperation.h
+1481047220 d:\projects\pr1\include\jloperation.h
 	"JLNumber.h"
 	<string>
 
-1478957978 source:d:\projects\pr1\src\jlarithmetics.cpp
+1481047388 source:d:\projects\pr1\src\jlarithmetics.cpp
 	"JLArithmetics.h"
 	<cassert>
 

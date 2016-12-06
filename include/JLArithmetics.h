@@ -9,8 +9,8 @@ class JLArithmetics : public JLOperation
         JLArithmetics();
         virtual ~JLArithmetics();
 
-        void act(JLNumber& num1, JLNumber& num2);
-        void act(JLNumber& num1);
+        JLNumber act(JLNumber& num1, JLNumber& num2);
+        JLNumber act(JLNumber& num1);
 
         int getArgumentsNumber() const;
 
